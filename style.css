@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: brown;
-    --color-text:#27c5d4;
+    --color-subtitle: #27c5d4;
+    --color-text: #7c7c7c;
 }
 
 body {
@@ -28,7 +29,7 @@ h1 {
 }
 
 .title {
-    color: var(--color-text);
+    color: var(--color-subtitle);
 }
 
 .img-avatar {
@@ -45,4 +46,38 @@ h1 {
 .summary-block {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contacts {
+    margin-left: 30px;
+}
+
+.subtitle {
+    color: var(--color-subtitle);
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    margin-left: 38px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a.contact-text:hover {
+    color: var(--color-subtitle);
+}
+
+li .contact-text {
+    color: var(--color-text);
 }
