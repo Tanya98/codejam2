@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: brown;
     --color-subtitle: #27c5d4;
-    --color-text: #7c7c7c;
+    --color-text: #696666;
 }
 
 body {
@@ -65,7 +65,7 @@ ul {
 
 li {
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -80,4 +80,11 @@ a.contact-text:hover {
 
 li .contact-text {
     color: var(--color-text);
+}
+
+.summary-text {
+    color: var(--color-text);
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    margin-left: 38px;
 }
